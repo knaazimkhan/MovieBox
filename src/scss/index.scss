@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Josefin+Sans|Work+Sans");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@import "partials/reset";
+
+.page__header {
+    width: 100%;
+    height: 70px;
+
+    padding: 0 5%;
+    float: left;
+    background: rgb(40, 77, 67);
+
+    .brand__name {
+        width: 150px;
+        margin-right: 10%;
+        float: left;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        h1 {
+            color: #fff;
+            font-family: "Orbitron", sans-serif;
+            letter-spacing: 5px;
+            font-weight: normal;
+        }
+    }
+
+    .menu__div {
+        float: left;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        ul {
+            list-style: none;
+            vertical-align: middle;
+
+            li {
+                display: inline;
+                padding: 2px;
+                margin-right: 20px;
+                transition: 0.5s;
+
+                a {
+                    color: #fff;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    text-decoration: none;
+                    font-family: "Orbitron", sans-serif;
+                }
+
+                &:hover {
+                    a {
+                        color: rgb(211, 208, 208);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.search__div {
+    width: 100%;
+    padding: 8px;
+    // border-bottom: 1px solid #ccc;
+    float: left;
+
+    .search__content {
+        width: 80%;
+        float: left;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+
+        &:hover {
+            .fa {
+                color: rgb(63, 63, 63);
+            }
+        }
+
+        .fa {
+            float: left;
+            margin-right: 8px;
+            padding: 5px;
+            font-size: 18px;
+            color: rgb(161, 161, 161);
+        }
+
+        form {
+            padding: 0;
+            margin: 0;
+            float: left;
+
+            width: 95%;
+
+            input {
+                width: 100%;
+                border: none;
+                outline: none;
+                padding: 5px;
+                font-size: 16px;
+                font-style: italic;
+                letter-spacing: 1px;
+                color: rgb(107, 106, 106);
+            }
+        }
+    }
+}
+
+.cate__container {
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    .cate__content__div {
+        width: 100%;
+        height: 120px;
+        float: left;
+
+        .cate__bg__blur {
+            filter: blur(5px);
+            width: 100%;
+            overflow: hidden;
+            height: 120px;
+            background-image: radial-gradient(
+                at 30% top,
+                rgba(31, 40, 73, 0.3) 0%,
+                rgba(8, 28, 36, 0.3) 70%
+            );
+        }
+
+        .cate__heading__div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            h1 {
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                transform: translateY(-50%);
+                color: #fff;
+                font-size: 24px;
+                font-family: "Josefin Sans", sans-serif;
+                letter-spacing: 2px;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+.itme__card__container {
+    width: 100%;
+    padding: 0 10%;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    float: left;
+
+    .cards {
+        width: 508px;
+        min-height: 308px;
+        float: left;
+        margin: 0 1%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+        .banner__img {
+            float: left;
+            width: 40%;
+            border: 1xp solid red;
+
+            img {
+                height: 308px;
+            }
+        }
+
+        .card__content__div {
+            width: 60%;
+            height: 308px;
+            float: left;
+            position: relative;
+            top: 0;
+            left: 0;
+            font-family: sans-serif;
+
+            .name__div {
+                width: 100%;
+                padding: 5px 10px;
+                margin-bottom: 20px;
+                border-bottom: 0.5px solid #ddd;
+
+                a {
+                    color: rgb(43, 43, 43);
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-family: "Work Sans", sans-serif;
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: rgb(105, 105, 105);
+                }
+            }
+
+            .details__div {
+                width: 100%;
+                padding: 5px 10px;
+
+                float: left;
+                height: 170px;
+                overflow: hidden;
+                overflow-y: scroll;
+                &:hover {
+                    &::-webkit-scrollbar-thumb {
+                        background: #00000017;
+                        // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                    }
+                }
+                &::-webkit-scrollbar {
+                    width: 5px;
+                    height: 2px;
+                }
+                &::-webkit-scrollbar-track {
+                    border-radius: 10px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    border-radius: 10px;
+                    border: none;
+                }
+
+                p {
+                    word-wrap: break-word;
+                    white-space: normal;
+                    color: #4d4d4d;
+                    font-size: 0.9em;
+                    line-height: 1.3em;
+                }
+            }
+
+            .relating__div {
+                width: 100%;
+                position: absolute;
+                bottom: 10px;
+                left: 0;
+                padding: 10px;
+
+                ul {
+                    list-style: none;
+                    float: left;
+
+                    margin-top: 10px;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+
+                    .profile {
+                        margin-left: 15px;
+                        float: left;
+                        width: 40px;
+                        height: 40px;
+                        border: 1px solid rgb(153, 153, 153);
+                        border-radius: 50%;
+                        cursor: pointer;
+
+                        .fa {
+                            position: relative;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            color: #969696;
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
