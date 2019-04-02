@@ -2,7 +2,7 @@ import React from "react";
 
 const Search = () => {
     return (
-        <header className="search__div">
+        <section className="search__div">
             <div className="search__content">
                 <i className="fa fa-search" aria-hidden="true" />
                 <form>
@@ -12,7 +12,7 @@ const Search = () => {
                     />
                 </form>
             </div>
-        </header>
+        </section>
     );
 };
 

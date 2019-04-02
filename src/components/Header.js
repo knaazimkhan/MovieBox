@@ -1,27 +1,30 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
         <header className="page__header">
             <div className="brand__name">
-                <h1>Movie</h1>
+                <Link to="/">
+                    <h1>MovieBox</h1>
+                </Link>
             </div>
             <div className="menu__div">
                 <ul>
                     <li>
-                        <a href="javascript">Movies</a>
+                        <NavLink to="/movies">Movies</NavLink>
                     </li>
                     <li>
-                        <a href="javascript">TV Show</a>
+                        <NavLink to="/tv-shows">TV Shows</NavLink>
                     </li>
                     <li>
-                        <a href="javascript">Dubbed</a>
+                        <NavLink to="/dubbed">Dubbed</NavLink>
                     </li>
                     <li>
-                        <a href="javascript">Bollywood</a>
+                        <NavLink to="/bollywood">Bollywood</NavLink>
                     </li>
                     <li>
-                        <a href="javascript">Hollywood</a>
+                        <NavLink to="/hollywood">Hollywood</NavLink>
                     </li>
                 </ul>
             </div>
