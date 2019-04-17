@@ -11,6 +11,8 @@ import Movies from "./pages/Movies";
 import TvShows from "./pages/TvShows";
 import Home from "./pages/Home";
 
+import 'bootstrap';
+
 class App extends Component {
     render() {
         return (
