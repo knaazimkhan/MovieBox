@@ -1220,6 +1220,11 @@ acorn@^6.0.1, acorn@^6.0.7:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
   integrity sha512-jPTiwtOxaHNaAPg/dmrJ/beuzLRnXtB0kQPQ8JpotKJgTB6rX6c8mlf315941pyjBSaPg8NHXS9fhP4u17DpGA==
 
+adaptive-backgrounds@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/adaptive-backgrounds/-/adaptive-backgrounds-1.0.0.tgz#9888b03d1951b4fcedc4868b5c6b4f7719cb6fa8"
+  integrity sha1-mIiwPRlRtPztxIaLXGtPdxnLb6g=
+
 address@1.0.3, address@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/address/-/address-1.0.3.tgz#b5f50631f8d6cec8bd20c963963afb55e06cbce9"
@@ -8754,6 +8759,11 @@ rgba-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
+
+rgbaster@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/rgbaster/-/rgbaster-2.1.1.tgz#d83c0801ffd8887c0a96b0d2b756fc7e1fd68614"
+  integrity sha512-vUQI+ldMMSGXEbWtqb/6aqLY1LHc33OtXg2Q9S0TCxzt2KxGncRJB6dk860KzhWTjms+Fz4wkxrJu8MlCrFpYg==
 
 rimraf@2, rimraf@^2.2.8, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@~2.6.2:
   version "2.6.3"
